@@ -1,0 +1,71 @@
+.ppal {
+  overflow: hidden;
+  background-image: url('../../assets/img/free-climb.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.wrap-text {
+  background-color: rgba(0, 0, 0, .5);
+  height: auto;
+  width: auto;
+}
+
+.wrap-text h1 {
+  font-size: 100px;
+  color: white;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.wrap-text h1 hr {
+  margin-top: 15px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .ppal {
+    width: 100vw;
+    height: 92vh;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .ppal {
+    width: 100vw;
+    margin-top: 8vh;
+    height: 92vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .ppal {
+    width: 93vw;
+    height: 100vh;
+
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .ppal {
+    width: 93vw;
+    height: 100vh;
+
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .ppal {
+    width: 93vw;
+    height: 100vh;
+
+  }
+}
